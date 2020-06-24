@@ -11,6 +11,6 @@ setuptools.setup(
     license='MIT',
     long_description= long_description,
     url='https://github.com/omnivector-solutions/interface-munge',
-    install_requires=[],
+    install_requires=[open('requirements.txt', 'r').read().split()],
     python_requires='>=3.6',
 )
